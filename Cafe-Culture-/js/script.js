@@ -36,3 +36,15 @@ $('.nav-tabs a:last').tab('show')
 
 // Select fourth tab (zero-based)
 $('.nav-tabs li:eq(3) a').tab('show')
+
+
+// for order menu tab
+var countre = 1;
+
+function add_more_field() {
+    countre += 1
+    html = ' <div class="row" id="roworder' + countre + '"><div class="col-sm-6 col-lg-6"><div class="form-group"><label class="form-label" for="name">Product Name</label><input type="text" name="productname ' + countre + '"class="form-control" /></div></div>\
+    <div class="col-sm-6 col-lg-6"><div class="form-group"><label class="form-label" for="name">Quantity</label><input type="number" name="productqun ' + countre + '" class="form-control" id=""></div></div></div>'
+    var form = document.getElementById('ordeer-form')
+    form.innerHTML += html
+}
