@@ -70,6 +70,7 @@ body {
 }
 
 
+
 /* order-form */
 
 #order-body {
@@ -122,6 +123,10 @@ body {
 }
 
 @media (max-width:767px) {
+    .nav-tabs { 
+            justify-content: normal;
+            min-width: 100%;
+        }
     #addbtn {
         float: right;
         margin-right: 30px;
